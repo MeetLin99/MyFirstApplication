@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginLeft="99dp" android:layout_marginStart="99dp" android:id="@+id/userNameText"
+                    android:hint="@string/mainActivity_userNameText_hint" android:layout_marginTop="100dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/userAgeText" android:layout_marginLeft="99dp" android:layout_marginRight="99dp"
+                    android:hint="@string/mainActivity_userAgeText_hint"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/phoneUseTimeText" android:hint="@string/mainActivity_phoneUseTime_hint"
+                    android:layout_marginLeft="99dp" android:layout_marginRight="99dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/userProfession" android:layout_marginLeft="99dp"
+                    android:layout_marginRight="99dp" android:hint="@string/mainActivity_userProfession_hint"/>
+            <Button
+                    android:text="@string/mainActivity_testOneBtn_text"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content" android:id="@+id/testBtnOne"
+                    android:onClick="startTestOne" android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

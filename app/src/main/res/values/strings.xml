@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="mainActivity_testOneBtn_text">Test1</string>
+    <string name="testOneActivity_imageView_description">testPicture</string>
+    <string name="testOneActivity_textViewTitle_text">宇宙中可能存在“巨大黑洞”，比星系中央的“超大质量黑洞”还大</string>
+    <string name="testOneActivity_textViewContent_text">科技日报讯
+        （记者刘霞）据物理学家组织网20日报道，英国科学家的一项新研究表明，宇宙中可能存在一种“巨大黑洞”（stupendously large black
+        holes），比位于星系中央的“超大质量黑洞”（SMBHs）还要大。如能证实，将为研究人员提供一个强大的宇宙学研究工具，加深人们对暗物质以及早期宇宙的理解。
+        　　现有观点普遍认为，超大质量黑洞在宿主星系内形成，通过吞食周围恒星和气体，或与其他黑洞合并而不断长大。它们的质量介于太阳质量的100万到100多亿倍之间。
+        　　但在新研究中，伦敦玛丽女王大学物理和天文学学院名誉教授伯纳德·卡尔领导的团队提出，“超大质量黑洞”可能存在另一种形成方式，使其能规避这一质量上限的限制。他们认为这些“巨大黑洞”可能是“原初黑洞”，形成于宇宙早期，远早于星系形成之前。
+        　　这种“原初黑洞”不是由坍缩的恒星形成，因此，它们的质量范围很广，可以非常小，也可以非常大。卡尔说：“我们已经知道存在着各种质量的黑洞，比如银河系中央有一个400万倍太阳质量的小黑洞。虽然目前还没有证据表明‘巨大黑洞’的存在，但可以想象的是，它们可能存在，它们也可能栖居于星系外的星系空间。但到目前为止，科学界忽略了‘巨大黑洞’的存在。”
+        　　研究团队认为，“巨大黑洞”有助于更好地了解暗物质。上世纪70年代，卡尔和斯蒂芬·霍金提出，“原初”黑洞可能是暗物质的候选之一，在宇宙极早期，宇宙密度的波动可能导致宇宙的一些区域塌缩称黑洞。
+        　　卡尔说：“‘巨大黑洞’本身无法提供暗物质，但如果它们真的存在，将对早期宇宙产生重要影响，并使‘体重’较轻的‘原初黑洞’形成暗物质成为可能。”
+        这是人类史上首张黑洞照片。北京时间4月10日晚9时许，包括中国在内，全球多地天文学家同步公布首张黑洞真容。这一由200多名科研人员历时10余年、从四大洲8个观测点“捕获”的视觉证据，有望证实爱因斯坦广义相对论在极端条件下仍然成立。
+        新华社发（事件视界望远镜项目组 供图）
+        　　新华社上海4月10日电 题：你是第一批“看见”黑洞的人类！
+        　　新华社“中国网事”记者王琳琳
+        　　
+    </string>
+
+    <string name="testOneActivity_textViewFocus_text">拖到这里停止！！！
+    </string>
+
+    <string name="testOneActivity_textViewFocus_text3">拖到这里停止！！！
+        黑洞，一个无人不知却知之甚少的生僻热词，今天迎来历史性一刻
+    </string>
+
+    <string name="testOneActivity_textViewFocus_text5">拖到这里停止！！！
+        黑洞，一个无人不知却知之甚少的生僻热词，今天迎来历史性一刻——北京时间10日，一个“超巨型”质量黑洞在上海等全球多地向人类首次示现真容！
+    </string>
+
+    <string name="mainActivity_userNameText_hint">姓名</string>
+    <string name="mainActivity_userAgeText_hint">年龄</string>
+    <string name="mainActivity_phoneUseTime_hint">使用手机的经验</string>
+    <string name="mainActivity_userProfession_hint">职业</string>
+</resources>
