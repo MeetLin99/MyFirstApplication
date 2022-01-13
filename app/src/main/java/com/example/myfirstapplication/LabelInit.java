@@ -68,8 +68,9 @@ public class LabelInit {
             //textView.setLayoutParams(textParams);
             linearLayout.addView(textView);
             linearLayout.addView(textViewf);
-            linearLayout.addView(textViewf3);
-            linearLayout.addView(textViewf5);
+
+            //linearLayout.addView(textViewf3); 控制高亮文本
+            //linearLayout.addView(textViewf5);
         }
     }
 }
